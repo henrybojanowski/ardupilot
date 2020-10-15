@@ -18,6 +18,7 @@ void ModeCircle::update()
     // or we just want to fly around in a gentle circle w/o GPS,
     // holding altitude at the altitude we set when we
     // switched into the mode
+    //Henry was here
     plane.nav_roll_cd  = plane.roll_limit_cd / 3;
     plane.update_load_factor();
     plane.calc_nav_pitch();
